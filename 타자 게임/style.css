@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Jua", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.word-display{
+    font-size: 80px;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 106, 59);
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.words{
+    border-bottom: 5px solid #fff;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.word-input-box{
+    margin-top: 2rem;
+}
+
+.word-input{
+    padding: 0.5rem;
+    width: 300px;
+    height: 90px;
+    border-radius: 30px;
+    border: 5px solid rgb(235, 106, 59);
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+
+.game-info{
+    font-size: 0.8rem;
+    display: flex;
+    width: 200px;
+    margin:  auto;
+    gap: 30px;
+}
+
+.info{
+    padding-top: 30px;
+}
+
+.time,
+.score{
+    font-size: 40px;
+}
+
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(235, 106, 59);
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.loading{
+    background: #ccc;
+    cursor: not-allowed;
+}
